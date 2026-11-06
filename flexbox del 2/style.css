@@ -1,0 +1,39 @@
+body {
+    margin: 20px; 
+    font-family: sans-serif;
+}
+
+header {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    height: 70px;
+    font-weight: bold;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+}
+
+    nav {
+        background-color: 	#F0F0F0;
+        width: 150px;
+        padding: 15px;
+    }
+
+section{
+    width: 150px;
+    padding: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    height: 70px;
+    font-weight: bold;
+}
